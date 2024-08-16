@@ -1,0 +1,71 @@
+  body {
+    background-image: linear-gradient(to right, rgb(26, 80, 180) -90%, rgb(131, 23, 173)  );
+    margin: 0;
+    font-size: 16px;
+}
+
+#head {
+    position: relative;
+    padding: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(3, 3, 3, 0.842);
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#headtext {
+    margin: 0;
+    font-size: 1.5vw;
+}
+
+.botao {
+    margin-top: 1vh;
+    background-color: rgba(63, 5, 139, 0.842);     
+    color: rgb(134, 197, 248);
+    border: none;
+    border: 2px solid rgb(66, 112, 146);;
+}
+
+#dica {
+    margin-top: 1vh;
+    width: 80%;
+    box-sizing: border-box;
+    color: rgb(134, 197, 248);
+    background-color: rgba(63, 5, 139, 0.842);     
+    border-color: rgb(32, 4, 85);   
+    border-radius: 3px;
+}
+
+
+#input {
+    width: 80%;
+    box-sizing: border-box; 
+    background-color: rgba(63, 5, 139, 0.842);
+    color: rgb(134, 197, 248);
+}
+
+#reset {
+    width: 80%;
+    margin-top: 1vh;
+}
+
+#all {
+    position: absolute;
+    top: calc(10vh + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+    width: 320px;
+    background-color: rgba(16, 31, 163, 0.747);
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
