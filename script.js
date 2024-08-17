@@ -7,7 +7,7 @@ input.value = ""
 dica.value = ("ADIVINHE O NUMERO DE 1 A 100")
 botao[1].disabled = true
 botao[1].style.filter = 'brightness(70%)';
-window.alert(`${numero}`)
+//window.alert(`${numero}`)
 
 function ok() {
 botao[0].style.filter = 'brightness(150%)';
